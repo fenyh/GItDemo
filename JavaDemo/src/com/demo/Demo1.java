@@ -13,6 +13,8 @@ public class Demo1 {
 		Date date = new Date(l);
 		String str = format.format(date);
 		try {
+
+			//日期格式化操作
 			Date date1 = format.parse(str);
 			System.out.println(date1.getYear());
 		} catch (ParseException e) {
